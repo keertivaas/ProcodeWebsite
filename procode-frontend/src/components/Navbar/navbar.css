@@ -1,0 +1,11 @@
+.navbar {
+  background: #2e2e2e;
+}
+.navlinks {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navlink {
+  color: white;
+}
