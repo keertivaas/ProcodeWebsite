@@ -5,27 +5,27 @@ export const Navbar = () => {
     <div className="navbar">
       <ul className="navlinks">
         <li>
-          <a href="#" className="navlink">
+          <a href="/" className="navlink">
             Home
           </a>
         </li>
         <li>
-          <a href="#" className="navlink">
+          <a href="/faculty" className="navlink">
             The Faculty
           </a>
         </li>
         <li>
-          <a href="#" className="navlink">
+          <a href="/team" className="navlink">
             The Team
           </a>
         </li>
         <li>
-          <a href="#" className="navlink">
+          <a href="/events" className="navlink">
             Events
           </a>
         </li>
         <li>
-          <a href="#" className="navlink">
+          <a href="/past" className="navlink">
             Past Sessions
           </a>
         </li>
