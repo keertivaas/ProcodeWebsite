@@ -4,47 +4,47 @@ import Akar_img from "../../img/akarvin.jpg";
 import Harris_img from "../../img/harrison.jpg";
 export const Office = () => {
   return (
-    <div className="intro-container py-1">
-      <div className="intro-logo">
-        <div
-          className="logo"
-          style={{
-            background: `url(${Akar_img}) no-repeat center center/contain`,
-            height: "100%",
-            width: "50%",
-            display: "inline-block",
-          }}
-        ></div>
-        <div className="pres">
-          <p>
-            Akarvin Raja Prajan S A J<br></br>
-            President<br></br>
-            Final Yr IT<br></br>
-          </p>
+    <div className="container-fluid py-3">
+      <div className="row mb-5">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div
+            className="image"
+            style={{
+              height: "25vh",
+              width: "25vh",
+            }}
+          >
+            <img src={Akar_img} style={{ width: "100%", height: "100%" }} />
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="info">
+            <p>Akarvin Raja Prajan</p>
+            <p>President</p>
+            <p>Final Year IT</p>
+          </div>
         </div>
       </div>
-      <br></br>
-      <div className="intro-logo">
-        <div
-          className="logo"
-          style={{
-            background: `url(${Harris_img}) no-repeat center center/contain`,
-            height: "100%",
-            width: "50%",
-            display: "inline-block",
-          }}
-        ></div>
-        <div className="vpres">
-          <p>
-            Harrison Vijay J<br></br>
-            Vice President<br></br>
-            Final Yr IT<br></br>
-          </p>
+      <div className="row mb-5">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div
+            className="image"
+            style={{
+              height: "25vh",
+              width: "25vh",
+            }}
+          >
+            <img src={Harris_img} style={{ width: "100%", height: "100%" }} />
+          </div>
         </div>
-
-
+        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="info">
+            <p>Harrison Vijay</p>
+            <p>Vice President</p>
+            <p>Final Yr IT</p>
+          </div>
+        </div>
       </div>
-
     </div>
   );
 };

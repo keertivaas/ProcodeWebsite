@@ -8,127 +8,127 @@ import michael_img from "../../img/michael.jpg";
 import maddy_img from "../../img/maddy.jpg";
 export const Core = () => {
   return (
-    <div className="intro-container py-1">
-      <div className="intro-logo">
-        <div
-          className="logo"
-          style={{
-            background: `url(${koushika_img}) no-repeat center center/contain`,
-            height: "100%",
-            width: "50%",
-            display: "inline-block",
-          }}
-        ></div>
-        <div className="core">
-          <p>
-            Koushika Padmanaban<br></br>
-            Core Team Member<br></br>
-            Final Yr IT<br></br>
-          </p>
+    <div className="container-fluid py-3">
+      <div className="row mb-5">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div
+            className="image"
+            style={{
+              height: "25vh",
+              width: "25vh",
+            }}
+          >
+            <img src={koushika_img} style={{ width: "100%", height: "100%" }} />
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="info">
+            <p>Koushika Padmanaban</p>
+            <p>Core Team Member</p>
+            <p>Final Year IT</p>
+          </div>
         </div>
       </div>
-      <br></br>
-
-      <div className="intro-logo">
-        <div
-          className="logo"
-          style={{
-            background: `url(${abhaya_img}) no-repeat center center/contain`,
-            height: "100%",
-            width: "50%",
-            display: "inline-block",
-          }}
-        ></div>
-        <div className="core">
-          <p>
-            Jajula Abhaya Chetna<br></br>
-            Core Team Member<br></br>
-            Final Yr IT<br></br>
-          </p>
+      <div className="row mb-5">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div
+            className="image"
+            style={{
+              height: "25vh",
+              width: "25vh",
+            }}
+          >
+            <img src={abhaya_img} style={{ width: "100%", height: "100%" }} />
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="info">
+            <p>Jajula Abhaya Chetna</p>
+            <p>Core Team Member</p>
+            <p>Final Year IT</p>
+          </div>
         </div>
       </div>
-      <br></br>
-
-      <div className="intro-logo">
-        <div
-          className="logo"
-          style={{
-            background: `url(${ajay_img}) no-repeat center center/contain`,
-            height: "100%",
-            width: "50%",
-            display: "inline-block",
-          }}
-        ></div>
-        <div className="core">
-          <p>
-            Ajay R<br></br>
-            Core Team Member<br></br>
-            Final Yr IT<br></br>
-          </p>
+      <div className="row mb-5">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div
+            className="image"
+            style={{
+              height: "25vh",
+              width: "25vh",
+            }}
+          >
+            <img src={ajay_img} style={{ width: "100%", height: "100%" }} />
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="info">
+            <p>Ajay R</p>
+            <p>Core Team Member</p>
+            <p>Final Year IT</p>
+          </div>
         </div>
       </div>
-      <br></br>
-
-      <div className="intro-logo">
-        <div
-          className="logo"
-          style={{
-            background: `url(${obed_img}) no-repeat center center/contain`,
-            height: "100%",
-            width: "50%",
-            display: "inline-block",
-          }}
-        ></div>
-        <div className="core">
-          <p>
-            Obed Immanuel<br></br>
-            Core Team Member<br></br>
-            Final Yr IT<br></br>
-          </p>
+      <div className="row mb-5">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div
+            className="image"
+            style={{
+              height: "25vh",
+              width: "25vh",
+            }}
+          >
+            <img src={obed_img} style={{ width: "100%", height: "100%" }} />
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="info">
+            <p>Obed Immanuel</p>
+            <p>Core Team Member</p>
+            <p>Final Year IT</p>
+          </div>
         </div>
       </div>
-      <br></br>
-
-      <div className="intro-logo">
-        <div
-          className="logo"
-          style={{
-            background: `url(${michael_img}) no-repeat center center/contain`,
-            height: "100%",
-            width: "50%",
-            display: "inline-block",
-          }}
-        ></div>
-        <div className="core">
-          <p>
-            Michael Suguna Kumar<br></br>
-            Core Team Member<br></br>
-            Final Yr IT<br></br>
-          </p>
+      <div className="row mb-5">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div
+            className="image"
+            style={{
+              height: "25vh",
+              width: "25vh",
+            }}
+          >
+            <img src={michael_img} style={{ width: "100%", height: "100%" }} />
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="info">
+            <p>Michael Suguna Kumar</p>
+            <p>Core Team Member</p>
+            <p>Final Year IT</p>
+          </div>
         </div>
       </div>
-      <br></br>
-
-      <div className="intro-logo">
-        <div
-          className="logo"
-          style={{
-            background: `url(${maddy_img}) no-repeat center center/contain`,
-            height: "100%",
-            width: "50%",
-            display: "inline-block",
-          }}
-        ></div>
-        <div className="core">
-          <p>
-            Madhavan V<br></br>
-            Core Team Member<br></br>
-            Final Yr IT<br></br>
-          </p>
+      <div className="row mb-5">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div
+            className="image"
+            style={{
+              height: "25vh",
+              width: "25vh",
+            }}
+          >
+            <img src={maddy_img} style={{ width: "100%", height: "100%" }} />
+          </div>
         </div>
-
+        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="info">
+            <p>Madhavan V</p>
+            <p>Core Team Member</p>
+            <p>Final Year IT</p>
+          </div>
+        </div>
       </div>
-
     </div>
   );
 };

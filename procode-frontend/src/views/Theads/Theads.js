@@ -7,106 +7,107 @@ import Sk_img from "../../img/Keertivaas.jpg";
 import Sabesh_img from "../../img/sabesh.jpg";
 export const Theads = () => {
   return (
-    <div className="intro-container py-1">
-      <div className="intro-logo">
-        <div
-          className="logo"
-          style={{
-            background: `url(${Abk_img}) no-repeat center center/contain`,
-            height: "100%",
-            width: "50%",
-            display: "inline-block",
-          }}
-        ></div>
-        <div className="tech">
-          <p>
-            Aadhithya B. Kailash<br></br>
-            Tech Head<br></br>
-            Final Yr IT<br></br>
-          </p>
+    <div className="container-fluid py-3">
+      <div className="row mb-5">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div
+            className="image"
+            style={{
+              height: "25vh",
+              width: "25vh",
+            }}
+          >
+            <img src={Abk_img} style={{ width: "100%", height: "100%" }} />
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="info">
+            <p>Aadhithya B. Kailash</p>
+            <p>Tech Head</p>
+            <p>Final Year IT</p>
+          </div>
         </div>
       </div>
-      <br></br>
-
-      <div className="intro-logo">
-        <div
-          className="logo"
-          style={{
-            background: `url(${Jayesh_img}) no-repeat center center/contain`,
-            height: "100%",
-            width: "50%",
-            display: "inline-block",
-          }}
-        ></div>
-        <div className="dsa">
-          <p>
-            Jayesh L<br></br>
-            DSA Head<br></br>
-            Final Yr IT<br></br>
-          </p>
+      <div className="row mb-5">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div
+            className="image"
+            style={{
+              height: "25vh",
+              width: "25vh",
+            }}
+          >
+            <img src={Jayesh_img} style={{ width: "100%", height: "100%" }} />
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="info">
+            <p>Jayesh L</p>
+            <p>D.S.A. Head</p>
+            <p>Final Year IT</p>
+          </div>
         </div>
       </div>
-      <br></br>
-
-      <div className="intro-logo">
-        <div
-          className="logo"
-          style={{
-            background: `url(${Badri_img}) no-repeat center center/contain`,
-            height: "100%",
-            width: "50%",
-            display: "inline-block",
-          }}
-        ></div>
-        <div className="ml">
-          <p>
-            M Badri Narayanan<br></br>
-            ML Head<br></br>
-            Final Yr IT<br></br>
-          </p>
+      <div className="row mb-5">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div
+            className="image"
+            style={{
+              height: "25vh",
+              width: "25vh",
+            }}
+          >
+            <img src={Badri_img} style={{ width: "100%", height: "100%" }} />
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="info">
+            <p>M Badri Narayanan</p>
+            <p>M.L. Head</p>
+            <p>Final Year IT</p>
+          </div>
         </div>
       </div>
-      <br></br>
-
-      <div className="intro-logo">
-        <div
-          className="logo"
-          style={{
-            background: `url(${Sk_img}) no-repeat center center/contain`,
-            height: "100%",
-            width: "50%",
-            display: "inline-block",
-          }}
-        ></div>
-        <div className="web">
-          <p>
-            Keertivaas S<br></br>
-            Web Development Head<br></br>
-            Final Yr IT<br></br>
-          </p>
+      <div className="row mb-5">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div
+            className="image"
+            style={{
+              height: "25vh",
+              width: "25vh",
+            }}
+          >
+            <img src={Sk_img} style={{ width: "100%", height: "100%" }} />
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="info">
+            <p>Keertivaas S</p>
+            <p>Web Development Head</p>
+            <p>Final Year IT</p>
+          </div>
         </div>
       </div>
-      <br></br>
-
-      <div className="intro-logo">
-        <div
-          className="logo"
-          style={{
-            background: `url(${Sabesh_img}) no-repeat center center/contain`,
-            height: "100%",
-            width: "50%",
-            display: "inline-block",
-          }}
-        ></div>
-        <div className="app">
-          <p>
-            Sabesh Bharathi<br></br>
-            App Development Head<br></br>
-            Third Yr IT<br></br>
-          </p>
+      <div className="row mb-5">
+        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div
+            className="image"
+            style={{
+              height: "25vh",
+              width: "25vh",
+            }}
+          >
+            <img src={Sabesh_img} style={{ width: "100%", height: "100%" }} />
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="info">
+            <p>Sabesh Bharathi</p>
+            <p>App Development Head</p>
+            <p>Third Year IT</p>
+          </div>
         </div>
       </div>
-
     </div>
   );
 };
