@@ -62,27 +62,27 @@ export const Navbar = () => {
                 role="button"
                 data-bs-toggle="dropdown"
               >
-                Teams
+                The Team
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
-                    DSA
+                  <a className="dropdown-item" href="/office">
+                    Office Bearers
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Machine Learning
+                  <a className="dropdown-item" href="/theads">
+                    Team Heads
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Web Development
+                  <a className="dropdown-item" href="/edheads">
+                    Event and Design Heads
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
-                    App Development
+                  <a className="dropdown-item" href="/core">
+                    Core Team Members
                   </a>
                 </li>
               </ul>

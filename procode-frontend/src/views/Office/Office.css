@@ -1,0 +1,25 @@
+.intro-logo {
+  height: 40vh;
+  display: flex;
+}
+
+.pres {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.vpres {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.intro-container {
+  margin: 0 auto;
+  width: 75vw;
+}
