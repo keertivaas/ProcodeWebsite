@@ -1,11 +1,21 @@
 .navbar {
+  background: #2e2e2e !important;
+}
+.nav-link {
+  color: white !important;
+}
+.dropdown-menu li:not(:last-child) {
+  border-bottom: 1px solid grey;
+}
+.dropdown-menu li {
+  padding: 0.5rem;
+}
+.dropdown-menu {
   background: #2e2e2e;
 }
-.navlinks {
-  padding: 1.5rem;
-  display: flex;
-  justify-content: space-evenly;
-}
-.navlink {
+.dropdown-item {
   color: white;
+}
+.dropdown-item:active {
+  background: transparent;
 }
