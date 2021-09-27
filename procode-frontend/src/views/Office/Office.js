@@ -14,7 +14,7 @@ export const Office = () => {
               width: "25vh",
             }}
           >
-            <img src={Akar_img} style={{ width: "100%", height: "100%" }} />
+            <img src={Akar_img} style={{ width: "100%", height: "100%" }} alt="Akarvin Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
@@ -34,7 +34,7 @@ export const Office = () => {
               width: "25vh",
             }}
           >
-            <img src={Harris_img} style={{ width: "100%", height: "100%" }} />
+            <img src={Harris_img} style={{ width: "100%", height: "100%" }} alt="Harrison Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">

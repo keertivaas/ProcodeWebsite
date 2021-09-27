@@ -16,7 +16,7 @@ export const Edheads = () => {
               width: "25vh",
             }}
           >
-            <img src={Adhi_img} style={{ width: "100%", height: "100%" }} />
+            <img src={Adhi_img} style={{ width: "100%", height: "100%" }} alt="Adithya Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
@@ -36,7 +36,7 @@ export const Edheads = () => {
               width: "25vh",
             }}
           >
-            <img src={Mahima_img} style={{ width: "100%", height: "100%" }} />
+            <img src={Mahima_img} style={{ width: "100%", height: "100%" }} alt="Mahima Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
@@ -56,7 +56,7 @@ export const Edheads = () => {
               width: "25vh",
             }}
           >
-            <img src={nandana_img} style={{ width: "100%", height: "100%" }} />
+            <img src={nandana_img} style={{ width: "100%", height: "100%" }} alt="Nandana Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
@@ -76,7 +76,7 @@ export const Edheads = () => {
               width: "25vh",
             }}
           >
-            <img src={sharan_img} style={{ width: "100%", height: "100%" }} />
+            <img src={sharan_img} style={{ width: "100%", height: "100%" }} alt="Sharan Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">

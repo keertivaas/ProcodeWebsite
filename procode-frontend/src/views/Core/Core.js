@@ -18,7 +18,7 @@ export const Core = () => {
               width: "25vh",
             }}
           >
-            <img src={koushika_img} style={{ width: "100%", height: "100%" }} />
+            <img src={koushika_img} style={{ width: "100%", height: "100%" }} alt="Koushika Image" />
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
@@ -38,7 +38,7 @@ export const Core = () => {
               width: "25vh",
             }}
           >
-            <img src={abhaya_img} style={{ width: "100%", height: "100%" }} />
+            <img src={abhaya_img} style={{ width: "100%", height: "100%" }} alt="Abhaya Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
@@ -58,7 +58,7 @@ export const Core = () => {
               width: "25vh",
             }}
           >
-            <img src={ajay_img} style={{ width: "100%", height: "100%" }} />
+            <img src={ajay_img} style={{ width: "100%", height: "100%" }} alt="Ajay Image" />
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
@@ -78,7 +78,7 @@ export const Core = () => {
               width: "25vh",
             }}
           >
-            <img src={obed_img} style={{ width: "100%", height: "100%" }} />
+            <img src={obed_img} style={{ width: "100%", height: "100%" }} alt="Obed Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
@@ -98,7 +98,7 @@ export const Core = () => {
               width: "25vh",
             }}
           >
-            <img src={michael_img} style={{ width: "100%", height: "100%" }} />
+            <img src={michael_img} style={{ width: "100%", height: "100%" }} alt="Michael Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
@@ -118,7 +118,7 @@ export const Core = () => {
               width: "25vh",
             }}
           >
-            <img src={maddy_img} style={{ width: "100%", height: "100%" }} />
+            <img src={maddy_img} style={{ width: "100%", height: "100%" }} alt="Madhavan Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">

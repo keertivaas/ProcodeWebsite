@@ -17,7 +17,7 @@ export const Theads = () => {
               width: "25vh",
             }}
           >
-            <img src={Abk_img} style={{ width: "100%", height: "100%" }} />
+            <img src={Abk_img} style={{ width: "100%", height: "100%" }} alt="Aadhithya Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
@@ -37,7 +37,7 @@ export const Theads = () => {
               width: "25vh",
             }}
           >
-            <img src={Jayesh_img} style={{ width: "100%", height: "100%" }} />
+            <img src={Jayesh_img} style={{ width: "100%", height: "100%" }} alt="Jayesh Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
@@ -57,7 +57,7 @@ export const Theads = () => {
               width: "25vh",
             }}
           >
-            <img src={Badri_img} style={{ width: "100%", height: "100%" }} />
+            <img src={Badri_img} style={{ width: "100%", height: "100%" }} alt="Badri Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
@@ -77,7 +77,7 @@ export const Theads = () => {
               width: "25vh",
             }}
           >
-            <img src={Sk_img} style={{ width: "100%", height: "100%" }} />
+            <img src={Sk_img} style={{ width: "100%", height: "100%" }} alt="Keertivaas Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
@@ -97,7 +97,7 @@ export const Theads = () => {
               width: "25vh",
             }}
           >
-            <img src={Sabesh_img} style={{ width: "100%", height: "100%" }} />
+            <img src={Sabesh_img} style={{ width: "100%", height: "100%" }} alt="Sabesh Image"/>
           </div>
         </div>
         <div className="col-md-6 col-sm-12 d-flex align-items-center">
