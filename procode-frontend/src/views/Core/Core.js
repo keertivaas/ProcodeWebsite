@@ -9,13 +9,13 @@ import maddy_img from "../../img/maddy2.jpg";
 import jothika_img from "../../img/jothika2.jpeg";
 export const Core = () => {
   return (
-    <div class="parallax">
+    <div className="parallax">
       <h1 align="center" className="py-4">
         CORE TEAM MEMBERS
       </h1>
       <div>
-        <div class="before_box">
-          <div class="box_for_core_members">
+        <div className="before_box">
+          <div className="box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -43,8 +43,8 @@ export const Core = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -72,8 +72,8 @@ export const Core = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -101,8 +101,8 @@ export const Core = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -130,8 +130,8 @@ export const Core = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -159,8 +159,8 @@ export const Core = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -188,8 +188,8 @@ export const Core = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div

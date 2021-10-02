@@ -12,9 +12,8 @@ export const Theads = () => {
         TEAM HEADS
       </h1>
       <div>
-        <br />
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -42,8 +41,8 @@ export const Theads = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -71,8 +70,8 @@ export const Theads = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -100,8 +99,8 @@ export const Theads = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -129,8 +128,8 @@ export const Theads = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div

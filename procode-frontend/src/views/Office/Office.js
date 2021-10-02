@@ -9,8 +9,8 @@ export const Office = () => {
         OFFICE BEARERS
       </h1>
       <div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -38,8 +38,8 @@ export const Office = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div

@@ -13,8 +13,8 @@ export const Edheads = () => {
       <br />
       <div>
         <br />
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -42,8 +42,8 @@ export const Edheads = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div a class=" box_for_core_members">
+        <div className="before_box">
+          <div a className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -71,8 +71,8 @@ export const Edheads = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -100,8 +100,8 @@ export const Edheads = () => {
             </div>
           </div>
         </div>
-        <div class="before_box">
-          <div class=" box_for_core_members">
+        <div className="before_box">
+          <div className=" box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
