@@ -4,12 +4,11 @@ import Akar_img from "../../img/akarvin2.jpg";
 import Harris_img from "../../img/harrison.jpg";
 export const Office = () => {
   return (
-    <div>
-      <br />
-      <h1 align="center"> OFFICE BEARERS </h1> <br />
-      <div class="parallax2">
-        {" "}
-        <br />
+    <div className="parallax2">
+      <h1 align="center" className="py-4">
+        OFFICE BEARERS
+      </h1>
+      <div>
         <div class="before_box">
           <div class=" box_for_core_members">
             <div className="row mb-5">
@@ -25,7 +24,7 @@ export const Office = () => {
                   <img
                     src={Akar_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Akarvin Image"
+                    alt="Akarvin"
                   />
                 </div>
               </div>
@@ -54,7 +53,7 @@ export const Office = () => {
                   <img
                     src={Harris_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Harrison Image"
+                    alt="Harrison"
                   />
                 </div>
               </div>

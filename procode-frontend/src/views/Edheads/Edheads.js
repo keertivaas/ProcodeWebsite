@@ -6,11 +6,12 @@ import nandana_img from "../../img/nandana2.jpg";
 import sharan_img from "../../img/sharan.jpg";
 export const Edheads = () => {
   return (
-    <div>
+    <div className="parallax3">
+      <h1 align="center" className="py-4">
+        EVENT AND DESIGN HEADS
+      </h1>
       <br />
-      <h1 align="center"> EVENT AND DESIGN HEADS </h1> <br />
-      <div class="parallax3">
-        {" "}
+      <div>
         <br />
         <div class="before_box">
           <div class=" box_for_core_members">
@@ -27,7 +28,7 @@ export const Edheads = () => {
                   <img
                     src={Adhi_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Adithya Image"
+                    alt="Adithya"
                   />
                 </div>
               </div>
@@ -56,7 +57,7 @@ export const Edheads = () => {
                   <img
                     src={Mahima_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Mahima Image"
+                    alt="Mahima"
                   />
                 </div>
               </div>
@@ -85,7 +86,7 @@ export const Edheads = () => {
                   <img
                     src={nandana_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Nandana Image"
+                    alt="Nandana"
                   />
                 </div>
               </div>
@@ -114,7 +115,7 @@ export const Edheads = () => {
                   <img
                     src={sharan_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Sharan Image"
+                    alt="Sharan"
                   />
                 </div>
               </div>

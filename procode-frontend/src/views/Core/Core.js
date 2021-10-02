@@ -9,14 +9,13 @@ import maddy_img from "../../img/maddy2.jpg";
 import jothika_img from "../../img/jothika2.jpeg";
 export const Core = () => {
   return (
-    <div>
-      <br />
-      <h1 align="center"> CORE TEAM MEMBERS </h1> <br />
-      <div class="parallax">
-        {" "}
-        <br />
+    <div class="parallax">
+      <h1 align="center" className="py-4">
+        CORE TEAM MEMBERS
+      </h1>
+      <div>
         <div class="before_box">
-          <div class=" box_for_core_members">
+          <div class="box_for_core_members">
             <div className="row mb-5">
               <div className="col-md-6 col-sm-12 d-flex justify-content-center">
                 <div
@@ -30,7 +29,7 @@ export const Core = () => {
                   <img
                     src={koushika_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Koushika Image"
+                    alt="Koushika"
                   />
                 </div>
               </div>
@@ -59,7 +58,7 @@ export const Core = () => {
                   <img
                     src={abhaya_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Abhaya Image"
+                    alt="Abhaya"
                   />
                 </div>
               </div>
@@ -88,7 +87,7 @@ export const Core = () => {
                   <img
                     src={ajay_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Ajay Image"
+                    alt="Ajay"
                   />
                 </div>
               </div>
@@ -117,7 +116,7 @@ export const Core = () => {
                   <img
                     src={obed_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Obed Image"
+                    alt="Obed"
                   />
                 </div>
               </div>
@@ -146,7 +145,7 @@ export const Core = () => {
                   <img
                     src={michael_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Michael Image"
+                    alt="Michael"
                   />
                 </div>
               </div>
@@ -175,7 +174,7 @@ export const Core = () => {
                   <img
                     src={maddy_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Madhavan Image"
+                    alt="Madhavan"
                   />
                 </div>
               </div>
@@ -204,7 +203,7 @@ export const Core = () => {
                   <img
                     src={jothika_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Jothika Image"
+                    alt="Jothika"
                   />
                 </div>
               </div>

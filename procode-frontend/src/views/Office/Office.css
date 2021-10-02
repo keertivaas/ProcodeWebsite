@@ -27,12 +27,14 @@
   /* The image used */
   background-image: url("garden.jpg");
 
-  /* Set a specific height */
   min-height: 500px;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.parallax2 h1 {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
 }

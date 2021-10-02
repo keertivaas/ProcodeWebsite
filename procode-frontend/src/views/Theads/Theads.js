@@ -7,11 +7,11 @@ import Sk_img from "../../img/Keertivaas.jpg";
 import Sabesh_img from "../../img/sabesh.jpg";
 export const Theads = () => {
   return (
-    <div>
-      <br />
-      <h1 align="center"> TEAM HEADS </h1> <br />
-      <div class="parallax4">
-        {" "}
+    <div className="parallax4">
+      <h1 align="center" className="py-4">
+        TEAM HEADS
+      </h1>
+      <div>
         <br />
         <div class="before_box">
           <div class=" box_for_core_members">
@@ -28,7 +28,7 @@ export const Theads = () => {
                   <img
                     src={Abk_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Aadhithya Image"
+                    alt="Aadhithya"
                   />
                 </div>
               </div>
@@ -57,7 +57,7 @@ export const Theads = () => {
                   <img
                     src={Jayesh_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Jayesh Image"
+                    alt="Jayesh"
                   />
                 </div>
               </div>
@@ -86,7 +86,7 @@ export const Theads = () => {
                   <img
                     src={Badri_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Badri Image"
+                    alt="Badri"
                   />
                 </div>
               </div>
@@ -115,7 +115,7 @@ export const Theads = () => {
                   <img
                     src={Sk_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Keertivaas Image"
+                    alt="Keertivaas"
                   />
                 </div>
               </div>
@@ -144,7 +144,7 @@ export const Theads = () => {
                   <img
                     src={Sabesh_img}
                     style={{ width: "100%", height: "98%" }}
-                    alt="Sabesh Image"
+                    alt="Sabesh"
                   />
                 </div>
               </div>

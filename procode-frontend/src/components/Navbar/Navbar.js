@@ -46,9 +46,9 @@ export const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-around">
-          <li className="nav-item">
+            <li className="nav-item">
               <a className="nav-link active" href="https://www.ssn.edu.in">
-                <img src={Ssn_img} width="50" height="25"></img>
+                <img src={Ssn_img} alt="logo-img" width="50" height="25"></img>
               </a>
             </li>
             <li className="nav-item">
@@ -62,15 +62,14 @@ export const Navbar = () => {
               </a>
             </li>
             <li className="nav-item dropdown">
-              <a
+              <div
                 className="nav-link dropdown-toggle"
-                href="#"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
               >
                 The Team
-              </a>
+              </div>
               <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="/office">
