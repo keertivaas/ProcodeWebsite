@@ -6,86 +6,121 @@ import nandana_img from "../../img/nandana.jpg";
 import sharan_img from "../../img/sharan.jpg";
 export const Edheads = () => {
   return (
-    <div className="container-fluid py-3">
-      <div className="row mb-5">
-        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
-          <div
-            className="image"
-            style={{
-              height: "25vh",
-              width: "25vh",
-            }}
-          >
-            <img src={Adhi_img} style={{ width: "100%", height: "100%" }} alt="Adithya Image"/>
+    <div>
+      <br />
+      <h1 align="center"> EVENT AND DESIGN HEADS </h1> <br />
+      <div class="parallax3">
+        {" "}
+        <br />
+        <div align="center" class=" box_for_core_members">
+          <div className="row mb-5">
+            <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+              <div
+                className="image"
+                style={{
+                  height: "40vh",
+                  width: "40vh",
+                  margin: "20px",
+                }}
+              >
+                <img
+                  src={Adhi_img}
+                  style={{ width: "100%", height: "100%" }}
+                  alt="Adithya Image"
+                />
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-12 d-flex align-items-center">
+              <div className="info">
+                <p>Adithya R.</p>
+                <p>Event Head</p>
+                <p>Final Year IT</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="col-md-6 col-sm-12 d-flex align-items-center">
-          <div className="info">
-            <p>Adithya R.</p>
-            <p>Event Head</p>
-            <p>Final Year IT</p>
+        <div align="center" class=" box_for_core_members">
+          <div className="row mb-5">
+            <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+              <div
+                className="image"
+                style={{
+                  height: "40vh",
+                  width: "40vh",
+                  margin: "20px",
+                }}
+              >
+                <img
+                  src={Mahima_img}
+                  style={{ width: "100%", height: "100%" }}
+                  alt="Mahima Image"
+                />
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-12 d-flex align-items-center">
+              <div className="info">
+                <p>Mahima</p>
+                <p>Event Head</p>
+                <p>Final Yr IT</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="row mb-5">
-        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
-          <div
-            className="image"
-            style={{
-              height: "25vh",
-              width: "25vh",
-            }}
-          >
-            <img src={Mahima_img} style={{ width: "100%", height: "100%" }} alt="Mahima Image"/>
+        <div align="center" class=" box_for_core_members">
+          <div className="row mb-5">
+            <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+              <div
+                className="image"
+                style={{
+                  height: "40vh",
+                  width: "40vh",
+                  margin: "20px",
+                }}
+              >
+                <img
+                  src={nandana_img}
+                  style={{ width: "100%", height: "100%" }}
+                  alt="Nandana Image"
+                />
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-12 d-flex align-items-center">
+              <div className="info">
+                <p>Nandana Srinivasan</p>
+                <p>Event Head</p>
+                <p>Final Yr IT</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="col-md-6 col-sm-12 d-flex align-items-center">
-          <div className="info">
-            <p>Mahima</p>
-            <p>Event Head</p>
-            <p>Final Yr IT</p>
+        <div align="center" class=" box_for_core_members">
+          <div className="row mb-5">
+            <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+              <div
+                className="image"
+                style={{
+                  height: "40vh",
+                  width: "40vh",
+                  margin: "20px",
+                }}
+              >
+                <img
+                  src={sharan_img}
+                  style={{ width: "100%", height: "100%" }}
+                  alt="Sharan Image"
+                />
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-12 d-flex align-items-center">
+              <div className="info">
+                <p>Krithik Sharan</p>
+                <p>Marketing &amp; Design Head</p>
+                <p>Final Yr IT</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="row mb-5">
-        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
-          <div
-            className="image"
-            style={{
-              height: "25vh",
-              width: "25vh",
-            }}
-          >
-            <img src={nandana_img} style={{ width: "100%", height: "100%" }} alt="Nandana Image"/>
-          </div>
-        </div>
-        <div className="col-md-6 col-sm-12 d-flex align-items-center">
-          <div className="info">
-            <p>Nandana Srinivasan</p>
-            <p>Event Head</p>
-            <p>Final Yr IT</p>
-          </div>
-        </div>
-      </div>
-      <div className="row mb-5">
-        <div className="col-md-6 col-sm-12 d-flex justify-content-center">
-          <div
-            className="image"
-            style={{
-              height: "25vh",
-              width: "25vh",
-            }}
-          >
-            <img src={sharan_img} style={{ width: "100%", height: "100%" }} alt="Sharan Image"/>
-          </div>
-        </div>
-        <div className="col-md-6 col-sm-12 d-flex align-items-center">
-          <div className="info">
-            <p>Krithik Sharan</p>
-            <p>Marketing &amp; Design Head</p>
-            <p>Final Yr IT</p>
-          </div>
-        </div>
+        <br />
       </div>
     </div>
   );
