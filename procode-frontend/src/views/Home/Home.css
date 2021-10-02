@@ -1,17 +1,40 @@
+/* body {
+  background: linear-gradient(135deg, white, #0093E9);
+} */
+
+.bgColor {
+  background: linear-gradient(135deg, white, #0093E9);
+}
+
 .intro-logo {
-  height: 40vh;
-  display: flex;
+  margin: 5rem 0;
 }
-.intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  font-size: 1.1rem;
+
+.intro p:nth-child(1) {
+  font-size: 2.5rem;
+  font-weight: bold;
 }
-.intro-container {
-  margin: 0 auto;
-  width: 75vw;
+
+.intro p:nth-child(2) {
+  font-size: 2.5rem;
 }
-.intro-text {
-  font-size: 1.1rem;
+
+.intro-text-item {
+  margin: 4rem 0;
+}
+
+.intro-text-item > * {
+  padding: 2.5rem;
+  min-height: 3rem;
+  align-items: center;
+}
+
+.subHead {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.item-text {
+  font-size: 1.5rem;
+  align-self: center;
 }
