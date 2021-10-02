@@ -1,5 +1,7 @@
 import React from "react";
 import "./navbar.css";
+import Ssn_img from "../../img/ssnlogo1.png";
+
 export const Navbar = () => {
   return (
     // <nav className="navbar">
@@ -44,6 +46,11 @@ export const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-around">
+          <li className="nav-item">
+              <a className="nav-link active" href="https://www.ssn.edu.in">
+                <img src={Ssn_img} width="50" height="25"></img>
+              </a>
+            </li>
             <li className="nav-item">
               <a className="nav-link active" href="/">
                 Home
