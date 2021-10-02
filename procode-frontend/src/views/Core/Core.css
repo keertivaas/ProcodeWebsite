@@ -53,13 +53,18 @@
 }
 
 .box_for_core_members {
-  width: 600px;
-  height: 303px;
-  margin-left: 400px;
-  margin-bottom: 50px;
-  margin-top: 40px;
+  width: 40%;
+  height: 40%;
+
+  margin-bottom: 2%;
+  margin-top: 2%;
   background-color: #ffffff;
-  border: 3px solid #000000;
+  border: 5% solid #000000;
   box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+}
+.before_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
