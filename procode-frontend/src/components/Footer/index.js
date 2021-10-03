@@ -1,5 +1,6 @@
 import React from "react";
 import { InstagramIcon } from "../InstagramIcon";
+import InstaSVG from "../../img/instagram-brands.svg";
 import "./footer.css";
 export const Footer = () => {
   return (
@@ -37,10 +38,10 @@ export const Footer = () => {
             <div className="insta">
               <a
                 href="https://www.instagram.com/procode_it_ssn/"
-                className="d-inline-block"
+                className="d-inline-block insta-icon"
               >
                 {/* color not working */}
-                <InstagramIcon height={40} width={40} color="grey" />
+                <InstagramIcon url={InstaSVG} height={48} width={48} />
                 <p style={{ fontSize: "0.65rem", marginRight: "0.5rem" }}>
                   Instagram
                 </p>

@@ -1,9 +1,9 @@
 import React from "react";
-import InstaSVG from "../../img/instagram-brands.svg";
-export const InstagramIcon = ({ color, height, width }) => {
+import "./instaicon.css";
+export const InstagramIcon = ({ height, width, url }) => {
   return (
-    <svg className="insta-icon" fill={color} height={height} width={width}>
-      <use xlinkHref={`${InstaSVG}#insta`} />
+    <svg className="insta-icon" height={height} width={width}>
+      <use xlinkHref={`${url}#insta`} />
     </svg>
   );
 };
