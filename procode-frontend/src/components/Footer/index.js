@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <div className="footer">
       <div className="container">
-        <div className="py-3 pb-1 d-flex justify-content-between">
+        <div className="py-3 pb-1 d-flex flex-column flex-md-row justify-content-center align-items-center text-center">
           <div className="done-by flex-grow-1">
             <ul className="row w-100">
               <li className="col-md-6">
@@ -44,9 +44,7 @@ export const Footer = () => {
               >
                 {/* color not working */}
                 <InstagramIcon url={InstaSVG} height={48} width={48} />
-                <p style={{ fontSize: "0.65rem", marginRight: "0.5rem" }}>
-                  Instagram
-                </p>
+                <p style={{ fontSize: "0.65rem" }}>Instagram</p>
               </a>
             </div>
           </div>
