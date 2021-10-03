@@ -34,9 +34,18 @@ export const Footer = () => {
             </ul>
           </div>
           <div className="social flex-grow-1">
-            <a href="https://www.instagram.com/procode_it_ssn/">
-              <InstagramIcon height={40} width={40} color="grey" />
-            </a>
+            <div className="insta">
+              <a
+                href="https://www.instagram.com/procode_it_ssn/"
+                className="d-inline-block"
+              >
+                {/* color not working */}
+                <InstagramIcon height={40} width={40} color="grey" />
+                <p style={{ fontSize: "0.65rem", marginRight: "0.5rem" }}>
+                  Instagram
+                </p>
+              </a>
+            </div>
           </div>
         </div>
       </div>
