@@ -8,6 +8,7 @@ li {
 }
 a {
   text-decoration: none !important;
+  color: white !important;
 }
 .my-3 {
   margin-top: 2rem;

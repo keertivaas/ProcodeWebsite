@@ -9,7 +9,7 @@ import { Office } from "./views/Office/Office";
 import { Theads } from "./views/Theads/Theads";
 import { Edheads } from "./views/Edheads/Edheads";
 import { Core } from "./views/Core/Core";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -25,6 +25,7 @@ function App() {
           <Route exact path="*" component={null} />
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }

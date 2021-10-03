@@ -19,3 +19,6 @@
 .dropdown-item:active {
   background: transparent;
 }
+.dropdown-item:hover {
+  color: black !important;
+}

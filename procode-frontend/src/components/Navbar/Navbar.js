@@ -98,11 +98,6 @@ export const Navbar = () => {
                 Events
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/past">
-                Past Sessions
-              </a>
-            </li>
           </ul>
         </div>
       </div>
