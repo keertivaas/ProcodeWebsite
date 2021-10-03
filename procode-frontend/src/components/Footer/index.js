@@ -30,7 +30,9 @@ export const Footer = () => {
                 </a>
               </li>
               <li className="col-md-6">
-                <a>Arun Pradeep</a>
+                <a href="https://www.linkedin.com/in/arun-pradeep-kalimuthu-8b5523214/">
+                  Arun Pradeep
+                </a>
               </li>
             </ul>
           </div>

@@ -16,6 +16,11 @@
 .intro-text {
   font-size: 1.1rem;
 }
+
+.fac-prof-link:hover{
+  text-decoration: underline !important;
+}
+
 .fac-prof-link {
   color: rgb(20, 72, 193) !important;
 }
